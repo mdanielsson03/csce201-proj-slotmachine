@@ -1,0 +1,54 @@
+libraries: iomanip, iostream, cstdlib, ctime, vector
+
+prior to running
+  start random number generator
+  initialize symbols (with vectors)
+  3 visible tiles
+  visible symbols w/ number of tiles using vector<string>
+  starting balance (maybe 100, 1000, etc)
+  bet
+
+display welcome message
+
+while balance > 0
+  display starting balance
+  ask user for bet
+  user inputs bet
+
+  if bet > balance
+    display error message: invalid input
+    have user enter again (continue)
+
+deduct bet
+
+spin wheel:
+  for int i = 0; i < # of tiles
+    random index = random number
+    tiles[i] = symbols[random index]
+
+display reels
+for (string &symbol : reels)
+  symbol 1 | 2 | 3 separated by spaces
+
+checking winning combinations
+initialize wins = 0
+three of a kind
+  if tiles[0] == tile[1] && tile[1] == tile[2]
+    if tile[0] == symbol1
+      multiply bet by (insert number)
+    else if tile[0] == symbol 2/3/4/etc
+      multiply bet by (another number)
+    else if tile[0] == symbol5
+      multiply bet by (another number)
+    etc.
+    display how much the user won
+two of a kind
+  else if(tile[0] == tile[1] || tile[1] == tile[2] || tile[0] == tile[2])
+    multiply bet by 2
+    display result
+display losing message otherwise
+add balance
+
+display final balance
+
+return 0
