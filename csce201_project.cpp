@@ -62,31 +62,31 @@ int main()
             cout << "Congratulations! Three of a kind!" << endl;
             if (reels[0] == "Orange") {
                 winnings = bet * 5;
-                cout << "You won $" << fixed << setprecision(2) << winnings << " (5x your bet)!" << endl;
+                cout << "You won $" << fixed << setprecision(2) << winnings << "!" << endl;
             }
             else if (reels[0] == "Diamond") {
                 winnings = bet * 10;
-                cout << "You won $" << fixed << setprecision(2) << winnings << " (10x your bet)!" << endl;
+                cout << "You won $" << fixed << setprecision(2) << winnings << "!" << endl;
             }
             else if (reels[0] == "Cherry") {
                 winnings = bet * 15;
-                cout << "You won $" << fixed << setprecision(2) << winnings << " (15x your bet)!" << endl;
+                cout << "You won $" << fixed << setprecision(2) << winnings << "!" << endl;
             }
             else if (reels[0] == "Melon") {
                 winnings = bet * 20;
-                cout << "You won $" << fixed << setprecision(2) << winnings << " (20x your bet)!" << endl;
+                cout << "You won $" << fixed << setprecision(2) << winnings << "!" << endl;
             }
             else if (reels[0] == "Bell") {
                 winnings = bet * 50;
-                cout << "You won $" << fixed << setprecision(2) << winnings << " (50x your bet)!" << endl;
+                cout << "You won $" << fixed << setprecision(2) << winnings << "!" << endl;
             }
             else if (reels[0] == "Grape") {
                 winnings = bet * 100;
-                cout << "You won $" << fixed << setprecision(2) << winnings << " (100x your bet)!" << endl;
+                cout << "You won $" << fixed << setprecision(2) << winnings << "!" << endl;
             }
             else if (reels[0] == "Seven") {
                 winnings = bet * 200;
-                cout << "JACKPOT! You won $" << fixed << setprecision(2) << winnings << " (200x your bet)!" << endl;
+                cout << "JACKPOT! You won $" << fixed << setprecision(2) << winnings << "!" << endl;
             }
         }
         // Two of a kind
