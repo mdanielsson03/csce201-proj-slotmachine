@@ -51,4 +51,11 @@ add balance
 
 display final balance
 
+play again?
+user input y or n
+if y
+    repeat
+if n
+    end program
+
 return 0
